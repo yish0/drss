@@ -3,7 +3,7 @@ PYTHON_DIR = python
 PYTHON_BIN = $(PYTHON_DIR)/bin
 
 uv:
-	which uv || (curl -LsSf https://astral.sh/uv/install.sh | sh)
+	which uv || (curl -LsSf https://astral.sh/uv/0.4.6/install.sh | sh)
 
 setup: $(UV)
 	uv venv python --python=$(PYTHON_VERSION)

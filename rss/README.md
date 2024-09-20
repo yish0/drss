@@ -6,7 +6,8 @@
 ## info
 
 supported brands
-- [x] Kapital
+- [ ] Kapital
+- [ ] Human Made
 
 
 
